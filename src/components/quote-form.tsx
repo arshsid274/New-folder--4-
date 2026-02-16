@@ -37,7 +37,11 @@ const purposeOptions = [
 const fieldClassName =
   "mt-2 w-full rounded-xl border border-slate-300 bg-white px-4 py-2.5 text-sm text-slate-900 outline-none transition focus:border-cyan-600 focus:ring-2 focus:ring-cyan-100";
 
-export function QuoteForm() {
+type QuoteFormProps = {
+  embedded?: boolean;
+};
+
+export function QuoteForm({ embedded = false }: QuoteFormProps) {
   const [values, setValues] = useState<QuoteFormValues>(initialValues);
   const [error, setError] = useState("");
   const [submitted, setSubmitted] = useState(false);
@@ -57,15 +61,25 @@ export function QuoteForm() {
     setValues(initialValues);
   };
 
-  return (
-    <form onSubmit={onSubmit} className="surface-card p-5 sm:p-6 md:p-8">
-      <h2 className="text-xl font-semibold tracking-tight text-slate-900 sm:text-2xl">Get a Quote</h2>
-      <p className="mt-2 text-sm text-slate-600">
-        Submit your transfer requirement and our team will respond with rates and compliance
-        requirements.
-      </p>
+  const formClassName = embedded ? "p-5 sm:p-6 md:p-7" : "surface-card p-5 sm:p-6 md:p-8";
+  const gridClassName = embedded ? "grid gap-5 sm:grid-cols-2" : "mt-6 grid gap-5 sm:grid-cols-2";
+  const actionRowClassName = embedded
+    ? "mt-5 flex flex-col gap-3 sm:flex-row sm:items-center"
+    : "mt-6 flex flex-col gap-3 sm:flex-row sm:items-center";
 
-      <div className="mt-6 grid gap-5 sm:grid-cols-2">
+  return (
+    <form onSubmit={onSubmit} className={formClassName}>
+      {!embedded ? (
+        <>
+          <h2 className="text-xl font-semibold tracking-tight text-slate-900 sm:text-2xl">Get a Quote</h2>
+          <p className="mt-2 text-sm text-slate-600">
+            Submit your transfer requirement and our team will respond with rates and compliance
+            requirements.
+          </p>
+        </>
+      ) : null}
+
+      <div className={gridClassName}>
         <label className="sm:col-span-2">
           <span className="text-sm font-medium text-slate-700">Name</span>
           <input
@@ -181,12 +195,12 @@ export function QuoteForm() {
         </label>
       </div>
 
-      <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
+      <div className={actionRowClassName}>
         <button type="submit" className="primary-btn animate-pulse-soft w-full sm:w-auto">
           Submit Quote Request
         </button>
         <p className="text-xs text-slate-500">
-          This is a frontend demo form and does not send data to a backend API.
+          Your details are used only for quote processing and compliance review.
         </p>
       </div>
 
