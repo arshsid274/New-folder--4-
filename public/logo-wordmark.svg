@@ -1,0 +1,12 @@
+<svg width="520" height="120" viewBox="0 0 520 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="6" y="6" width="108" height="108" rx="24" fill="#0B2D4F"/>
+  <circle cx="60" cy="60" r="32" fill="#135F96"/>
+  <path d="M49 45H72L66 51H49C47.3431 51 46 52.3431 46 54C46 55.6569 47.3431 57 49 57H65C69.4183 57 73 60.5817 73 65C73 69.4183 69.4183 73 65 73H42L48 67H65C66.6569 67 68 65.6569 68 64C68 62.3431 66.6569 61 65 61H49C44.5817 61 41 57.4183 41 53C41 48.5817 44.5817 45 49 45Z" fill="#E4FFF3"/>
+  <circle cx="82" cy="35" r="9" fill="#0F9D74"/>
+  <text x="136" y="58" fill="#0B2D4F" font-family="Segoe UI, Arial, sans-serif" font-weight="700" font-size="34">
+    BlueStar
+  </text>
+  <text x="136" y="92" fill="#135F96" font-family="Segoe UI, Arial, sans-serif" font-weight="600" font-size="26">
+    MONEY EXCHANGE
+  </text>
+</svg>

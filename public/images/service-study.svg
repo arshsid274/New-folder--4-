@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="panel" x1="120" y1="100" x2="1080" y2="700" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 120) rotate(20) scale(520 360)">
+      <stop stop-color="#4f46e5" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#4f46e5" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1020 720) rotate(-10) scale(520 360)">
+      <stop stop-color="#0284c7" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#0284c7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="#edf4ff"/>
+  <circle cx="180" cy="120" r="360" fill="url(#glowA)"/>
+  <circle cx="1020" cy="720" r="360" fill="url(#glowB)"/>
+  <rect x="96" y="92" width="1008" height="616" rx="56" fill="url(#panel)"/>
+  <rect x="142" y="138" width="916" height="524" rx="40" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.22" stroke-width="2"/>
+  <g transform="translate(600 355)">
+
+    <g fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M-220 -10l220-100 220 100-220 100-220-100z"/>
+      <path d="M-160 40v84c44 32 102 48 160 48s116-16 160-48V40"/>
+      <path d="M220 -10v120"/>
+      <circle cx="220" cy="126" r="20" fill="#ffffff" stroke="none"/>
+      <path d="M-90 -120h180"/>
+    </g>
+  </g>
+  <text x="600" y="575" text-anchor="middle" fill="#ffffff" font-family="Manrope, Segoe UI, sans-serif" font-size="52" font-weight="700">Study Abroad Transfers</text>
+  <text x="600" y="622" text-anchor="middle" fill="#e8f4ff" font-family="Manrope, Segoe UI, sans-serif" font-size="26" font-weight="500">Tuition and student living support</text>
+</svg>

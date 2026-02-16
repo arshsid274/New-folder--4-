@@ -1,0 +1,29 @@
+<svg width="960" height="760" viewBox="0 0 960 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="760" rx="36" fill="#F3F9FF"/>
+  <rect x="42" y="48" width="876" height="664" rx="30" fill="white"/>
+  <rect x="88" y="106" width="360" height="34" rx="17" fill="#DCEEFF"/>
+  <rect x="88" y="154" width="252" height="18" rx="9" fill="#EAF4FF"/>
+
+  <rect x="88" y="220" width="370" height="210" rx="22" fill="#0B2D4F"/>
+  <rect x="108" y="246" width="112" height="16" rx="8" fill="#9FD0FF"/>
+  <rect x="108" y="276" width="324" height="18" rx="9" fill="#E8F4FF"/>
+  <rect x="108" y="308" width="280" height="14" rx="7" fill="#C7E4FF"/>
+  <rect x="108" y="342" width="146" height="46" rx="16" fill="#0F9D74"/>
+  <rect x="272" y="342" width="160" height="46" rx="16" fill="#135F96"/>
+
+  <rect x="490" y="220" width="380" height="210" rx="22" fill="#E9F4FF"/>
+  <circle cx="550" cy="292" r="34" fill="#135F96"/>
+  <path d="M538 286H563L556 293H538C536.895 293 536 293.895 536 295C536 296.105 536.895 297 538 297H553C556.866 297 560 300.134 560 304C560 307.866 556.866 311 553 311H531L538 304H553C554.105 304 555 303.105 555 302C555 300.895 554.105 300 553 300H538C534.134 300 531 296.866 531 293C531 289.134 534.134 286 538 286Z" fill="#E6FFF6"/>
+  <rect x="602" y="268" width="236" height="16" rx="8" fill="#A6CBF2"/>
+  <rect x="602" y="294" width="204" height="14" rx="7" fill="#BADAFB"/>
+  <rect x="602" y="318" width="170" height="14" rx="7" fill="#D2E7FF"/>
+  <rect x="602" y="350" width="104" height="36" rx="12" fill="#0F9D74"/>
+
+  <rect x="88" y="468" width="782" height="34" rx="14" fill="#EDF5FF"/>
+  <rect x="88" y="520" width="782" height="34" rx="14" fill="#EDF5FF"/>
+  <rect x="88" y="572" width="782" height="34" rx="14" fill="#EDF5FF"/>
+
+  <rect x="762" y="468" width="108" height="34" rx="14" fill="#0F9D74"/>
+  <rect x="736" y="520" width="134" height="34" rx="14" fill="#135F96"/>
+  <rect x="782" y="572" width="88" height="34" rx="14" fill="#0F9D74"/>
+</svg>

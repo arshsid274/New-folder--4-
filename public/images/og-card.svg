@@ -1,0 +1,22 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#071B33"/>
+  <circle cx="1030" cy="90" r="190" fill="#135F96" fill-opacity="0.35"/>
+  <circle cx="160" cy="550" r="220" fill="#0F9D74" fill-opacity="0.28"/>
+
+  <rect x="80" y="94" width="108" height="108" rx="24" fill="#0B2D4F"/>
+  <circle cx="134" cy="148" r="33" fill="#135F96"/>
+  <path d="M123 134H146L140 140H123C121.895 140 121 140.895 121 142C121 143.105 121.895 144 123 144H138C141.866 144 145 147.134 145 151C145 154.866 141.866 158 138 158H116L122 152H138C139.105 152 140 151.105 140 150C140 148.895 139.105 148 138 148H123C119.134 148 116 144.866 116 141C116 137.134 119.134 134 123 134Z" fill="#E6FFF5"/>
+  <circle cx="162" cy="120" r="9" fill="#0F9D74"/>
+
+  <text x="80" y="290" fill="#E8F2FF" font-family="Segoe UI, Arial, sans-serif" font-weight="700" font-size="66">
+    BlueStar Money Exchange
+  </text>
+  <text x="80" y="360" fill="#B7D2EE" font-family="Segoe UI, Arial, sans-serif" font-weight="500" font-size="34">
+    Secure currency exchange and compliant global transfers.
+  </text>
+
+  <rect x="80" y="418" width="360" height="74" rx="20" fill="#0F9D74"/>
+  <text x="132" y="464" fill="white" font-family="Segoe UI, Arial, sans-serif" font-weight="600" font-size="28">
+    Get a Quote
+  </text>
+</svg>
