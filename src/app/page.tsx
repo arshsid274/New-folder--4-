@@ -248,53 +248,6 @@ const testimonials = [
   },
 ];
 
-function AnimatedHero() {
-  return (
-    <svg className="h-full w-full" viewBox="0 0 420 280" fill="none" aria-hidden="true">
-      <g className="animate-float">
-        <circle cx="70" cy="64" r="24" fill="#0891b2" fillOpacity="0.14" />
-        <text x="70" y="72" textAnchor="middle" fontSize="22" fill="#0e7490" fontWeight="700">
-          $
-        </text>
-      </g>
-
-      <g className="animate-float-delayed">
-        <circle cx="350" cy="88" r="22" fill="#10b981" fillOpacity="0.14" />
-        <text x="350" y="96" textAnchor="middle" fontSize="20" fill="#059669" fontWeight="700">
-          EUR
-        </text>
-      </g>
-
-      <g className="animate-float" style={{ animationDelay: "0.7s" }}>
-        <circle cx="210" cy="48" r="20" fill="#06b6d4" fillOpacity="0.14" />
-        <text x="210" y="56" textAnchor="middle" fontSize="18" fill="#0891b2" fontWeight="700">
-          GBP
-        </text>
-      </g>
-
-      <path
-        d="M86 164 Q208 120 330 164"
-        stroke="#0891b2"
-        strokeWidth="3"
-        strokeDasharray="8 6"
-        className="animate-dash-slow"
-      />
-      <path
-        d="M72 206 Q210 178 346 206"
-        stroke="#10b981"
-        strokeWidth="3"
-        strokeDasharray="8 6"
-        className="animate-dash-slow"
-        style={{ animationDelay: "0.4s" }}
-      />
-
-      <circle cx="210" cy="184" r="54" stroke="#0284c7" strokeWidth="2" opacity="0.25" />
-      <ellipse cx="210" cy="184" rx="54" ry="24" stroke="#06b6d4" strokeWidth="1.5" opacity="0.3" />
-      <ellipse cx="210" cy="184" rx="24" ry="54" stroke="#0ea5e9" strokeWidth="1.5" opacity="0.3" />
-    </svg>
-  );
-}
-
 function SectionHeader({
   label,
   title,
@@ -316,23 +269,6 @@ function SectionHeader({
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50">
-      <style>{`
-        @keyframes float {
-          0%, 100% { transform: translateY(0px); }
-          50% { transform: translateY(-14px); }
-        }
-        @keyframes float-delayed {
-          0%, 100% { transform: translateY(0px); }
-          50% { transform: translateY(-18px); }
-        }
-        @keyframes dash-slow {
-          to { stroke-dashoffset: -28; }
-        }
-        .animate-float { animation: float 4s ease-in-out infinite; }
-        .animate-float-delayed { animation: float-delayed 4s ease-in-out infinite; }
-        .animate-dash-slow { animation: dash-slow 2.2s linear infinite; }
-      `}</style>
-
       <section className="relative overflow-hidden border-b border-slate-200/80 bg-gradient-to-br from-slate-100 via-cyan-50/65 to-blue-100/70">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_25%_18%,rgba(6,182,212,0.17),transparent_42%),radial-gradient(circle_at_82%_72%,rgba(16,185,129,0.11),transparent_42%)]" />
         <div className="section-shell relative">
@@ -392,12 +328,6 @@ export default function HomePage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/35 via-transparent to-transparent" />
                   <div className="absolute bottom-4 left-4 rounded-lg border border-white/20 bg-slate-950/45 px-3 py-1.5 text-xs font-semibold text-white backdrop-blur-sm">
                     Global Exchange Network
-                  </div>
-                </div>
-
-                <div className="mt-4 overflow-hidden rounded-2xl border border-slate-200 bg-gradient-to-br from-blue-50 via-white to-cyan-50 p-4">
-                  <div className="h-28 w-full sm:h-32">
-                    <AnimatedHero />
                   </div>
                 </div>
               </article>

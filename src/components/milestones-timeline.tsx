@@ -103,10 +103,6 @@ export function MilestonesTimeline({ milestones }: MilestonesTimelineProps) {
         className="absolute left-1/2 top-0 hidden w-1 -translate-x-1/2 rounded-full bg-gradient-to-b from-cyan-500 to-blue-600 md:block"
         style={{ height: `${progress * 100}%` }}
       />
-      <div
-        className="absolute left-1/2 hidden h-4 w-4 -translate-x-1/2 rounded-full border-4 border-white bg-gradient-to-r from-cyan-500 to-blue-600 shadow-[0_0_20px_rgba(6,182,212,0.5)] md:block"
-        style={{ top: `${progress * 100}%`, transform: "translate(-50%, -50%)" }}
-      />
 
       <div className="space-y-8 md:space-y-10">
         {milestones.map((milestone, index) => {
@@ -120,7 +116,7 @@ export function MilestonesTimeline({ milestones }: MilestonesTimelineProps) {
                 itemRefs.current[index] = element;
               }}
               data-index={index}
-              className="grid gap-4 md:grid-cols-[1fr_auto_1fr] md:items-center"
+              className="grid gap-4 md:grid-cols-[1fr_1rem_1fr] md:items-center"
             >
               <div className={rightAligned ? "md:text-right" : "md:col-start-3 md:text-left"}>
                 <article
@@ -139,15 +135,7 @@ export function MilestonesTimeline({ milestones }: MilestonesTimelineProps) {
                 </article>
               </div>
 
-              <div className="hidden md:block">
-                <span
-                  className={`block h-4 w-4 rounded-full border-4 border-white shadow-lg transition-all duration-500 ${
-                    visible
-                      ? "scale-100 bg-gradient-to-r from-cyan-500 to-blue-600"
-                      : "scale-75 bg-slate-300"
-                  }`}
-                />
-              </div>
+              <div className="hidden md:block" />
 
               <div className={rightAligned ? "md:col-start-3" : "md:col-start-1"} />
             </div>

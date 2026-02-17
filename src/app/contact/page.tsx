@@ -281,102 +281,130 @@ export default function ContactPage() {
       <section className="bg-gradient-to-br from-slate-50 to-blue-50">
         <div className="section-shell">
           <div className="grid items-start gap-8 lg:grid-cols-2 lg:gap-12">
-            <article className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl">
-              <header className="bg-gradient-to-r from-blue-600 to-cyan-600 p-6 text-white">
-                <h2 className="text-2xl font-bold">Send Us a Message</h2>
-                <p className="mt-2 text-sm text-blue-100">
-                  Share your request details and our team will follow up with guidance and next
-                  actions.
-                </p>
-              </header>
-              <form className="space-y-5 p-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-semibold text-slate-900">
-                    Your Name
-                  </label>
-                  <input
-                    id="name"
-                    name="name"
-                    type="text"
-                    required
-                    className="mt-2 w-full rounded-lg border border-slate-300 px-4 py-3 text-slate-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
-                    placeholder="Enter your full name"
-                  />
-                </div>
-
-                <div className="grid gap-5 sm:grid-cols-2">
+            <div className="space-y-6">
+              <article className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-2xl">
+                <header className="bg-gradient-to-r from-blue-600 to-cyan-600 p-6 text-white">
+                  <h2 className="text-2xl font-bold">Send Us a Message</h2>
+                  <p className="mt-2 text-sm text-blue-100">
+                    Share your request details and our team will follow up with guidance and next
+                    actions.
+                  </p>
+                </header>
+                <form className="space-y-5 p-6">
                   <div>
-                    <label htmlFor="email" className="block text-sm font-semibold text-slate-900">
-                      Email Address
+                    <label htmlFor="name" className="block text-sm font-semibold text-slate-900">
+                      Your Name
                     </label>
                     <input
-                      id="email"
-                      name="email"
-                      type="email"
+                      id="name"
+                      name="name"
+                      type="text"
                       required
                       className="mt-2 w-full rounded-lg border border-slate-300 px-4 py-3 text-slate-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
-                      placeholder="your.email@example.com"
+                      placeholder="Enter your full name"
                     />
                   </div>
+
+                  <div className="grid gap-5 sm:grid-cols-2">
+                    <div>
+                      <label htmlFor="email" className="block text-sm font-semibold text-slate-900">
+                        Email Address
+                      </label>
+                      <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        required
+                        className="mt-2 w-full rounded-lg border border-slate-300 px-4 py-3 text-slate-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
+                        placeholder="your.email@example.com"
+                      />
+                    </div>
+                    <div>
+                      <label htmlFor="phone" className="block text-sm font-semibold text-slate-900">
+                        Phone Number
+                      </label>
+                      <input
+                        id="phone"
+                        name="phone"
+                        type="tel"
+                        className="mt-2 w-full rounded-lg border border-slate-300 px-4 py-3 text-slate-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
+                        placeholder="+218 XXX XXXXXXX"
+                      />
+                    </div>
+                  </div>
+
                   <div>
-                    <label htmlFor="phone" className="block text-sm font-semibold text-slate-900">
-                      Phone Number
+                    <label htmlFor="subject" className="block text-sm font-semibold text-slate-900">
+                      Subject
                     </label>
-                    <input
-                      id="phone"
-                      name="phone"
-                      type="tel"
-                      className="mt-2 w-full rounded-lg border border-slate-300 px-4 py-3 text-slate-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
-                      placeholder="+218 XXX XXXXXXX"
+                    <select
+                      id="subject"
+                      name="subject"
+                      required
+                      className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-4 py-3 text-slate-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
+                      defaultValue=""
+                    >
+                      <option value="" disabled>
+                        Select a subject
+                      </option>
+                      <option value="general">General Inquiry</option>
+                      <option value="quote">Request Quote</option>
+                      <option value="transfer">Transfer Support</option>
+                      <option value="compliance">Compliance Question</option>
+                      <option value="feedback">Feedback</option>
+                    </select>
+                  </div>
+
+                  <div>
+                    <label htmlFor="message" className="block text-sm font-semibold text-slate-900">
+                      Message
+                    </label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows={5}
+                      required
+                      className="mt-2 w-full resize-none rounded-lg border border-slate-300 px-4 py-3 text-slate-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
+                      placeholder="How can we help you?"
                     />
                   </div>
-                </div>
 
-                <div>
-                  <label htmlFor="subject" className="block text-sm font-semibold text-slate-900">
-                    Subject
-                  </label>
-                  <select
-                    id="subject"
-                    name="subject"
-                    required
-                    className="mt-2 w-full rounded-lg border border-slate-300 bg-white px-4 py-3 text-slate-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
-                    defaultValue=""
+                  <button
+                    type="submit"
+                    className="inline-flex w-full items-center justify-center rounded-lg bg-gradient-to-r from-blue-600 to-cyan-600 px-6 py-4 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
                   >
-                    <option value="" disabled>
-                      Select a subject
-                    </option>
-                    <option value="general">General Inquiry</option>
-                    <option value="quote">Request Quote</option>
-                    <option value="transfer">Transfer Support</option>
-                    <option value="compliance">Compliance Question</option>
-                    <option value="feedback">Feedback</option>
-                  </select>
-                </div>
+                    <Send className="mr-2 h-5 w-5" />
+                    Send Message
+                  </button>
+                </form>
+              </article>
 
-                <div>
-                  <label htmlFor="message" className="block text-sm font-semibold text-slate-900">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={5}
-                    required
-                    className="mt-2 w-full resize-none rounded-lg border border-slate-300 px-4 py-3 text-slate-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
-                    placeholder="How can we help you?"
-                  />
+              <article
+                id="business-hours"
+                data-gsap-from="left"
+                className="rounded-2xl bg-gradient-to-br from-blue-600 to-cyan-600 p-6 text-white shadow-lg"
+              >
+                <Building2 className="h-8 w-8" />
+                <h3 className="mt-4 text-xl font-bold">Visit Our Office</h3>
+                <p className="mt-2 text-sm leading-relaxed text-blue-100">
+                  We welcome walk-in visits during business hours for exchange support and transfer
+                  consultation.
+                </p>
+                <div className="mt-4 space-y-2 text-sm">
+                  <p className="flex items-center gap-2">
+                    <Clock className="h-4 w-4" />
+                    <span>{businessHours}</span>
+                  </p>
+                  <p className="flex items-center gap-2">
+                    <MapPin className="h-4 w-4" />
+                    <span>{siteConfig.addressLine}</span>
+                  </p>
                 </div>
-
-                <button
-                  type="submit"
-                  className="inline-flex w-full items-center justify-center rounded-lg bg-gradient-to-r from-blue-600 to-cyan-600 px-6 py-4 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
-                >
-                  <Send className="mr-2 h-5 w-5" />
-                  Send Message
-                </button>
-              </form>
-            </article>
+                <div className="mt-5 h-16 w-16">
+                  <AnimatedLocation />
+                </div>
+              </article>
+            </div>
 
             <div className="space-y-6">
               <article className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-lg">
@@ -426,32 +454,6 @@ export default function ContactPage() {
                       </Link>
                     );
                   })}
-                </div>
-              </article>
-
-              <article
-                id="business-hours"
-                data-gsap-from="left"
-                className="rounded-2xl bg-gradient-to-br from-blue-600 to-cyan-600 p-6 text-white shadow-lg lg:-ml-14 xl:-ml-20"
-              >
-                <Building2 className="h-8 w-8" />
-                <h3 className="mt-4 text-xl font-bold">Visit Our Office</h3>
-                <p className="mt-2 text-sm leading-relaxed text-blue-100">
-                  We welcome walk-in visits during business hours for exchange support and transfer
-                  consultation.
-                </p>
-                <div className="mt-4 space-y-2 text-sm">
-                  <p className="flex items-center gap-2">
-                    <Clock className="h-4 w-4" />
-                    <span>{businessHours}</span>
-                  </p>
-                  <p className="flex items-center gap-2">
-                    <MapPin className="h-4 w-4" />
-                    <span>{siteConfig.addressLine}</span>
-                  </p>
-                </div>
-                <div className="mt-5 h-16 w-16">
-                  <AnimatedLocation />
                 </div>
               </article>
             </div>
