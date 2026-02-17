@@ -170,7 +170,7 @@ type ServiceSection = {
 const serviceSections: ServiceSection[] = [
   {
     title: "Local Currency Exchange",
-    image: "/images/service-local.jpg",
+    image: "/images/service-local.jpg?v=20260217r3",
     alt: "Local currency exchange in Benghazi with transparent rates",
     icon: Banknote,
     animated: AnimatedCurrency,
@@ -203,7 +203,7 @@ const serviceSections: ServiceSection[] = [
   },
   {
     title: "International Transfers",
-    image: "/images/service-international.jpg",
+    image: "/images/service-international.jpg?v=20260217r3",
     alt: "Secure international bank transfer processing",
     icon: Send,
     animated: AnimatedTransfer,
@@ -236,7 +236,7 @@ const serviceSections: ServiceSection[] = [
   },
   {
     title: "Medical Transfers",
-    image: "/images/service-medical.jpg",
+    image: "/images/service-medical.jpg?v=20260217r3",
     alt: "International medical transfer payment to hospital",
     icon: Heart,
     animated: AnimatedMedical,
@@ -269,7 +269,7 @@ const serviceSections: ServiceSection[] = [
   },
   {
     title: "Study Abroad Transfers",
-    image: "/images/service-study.jpg",
+    image: "/images/service-study.jpg?v=20260217r3",
     alt: "International tuition fee and student transfer services",
     icon: GraduationCap,
     animated: AnimatedEducation,
@@ -302,7 +302,7 @@ const serviceSections: ServiceSection[] = [
   },
   {
     title: "Tourism Transfers",
-    image: "/images/service-tourism.jpg",
+    image: "/images/service-tourism.jpg?v=20260217r3",
     alt: "Foreign exchange and travel-related money transfer services",
     icon: Plane,
     animated: AnimatedTourism,
@@ -335,7 +335,7 @@ const serviceSections: ServiceSection[] = [
   },
   {
     title: "Corporate Transfers",
-    image: "/images/service-corporate.jpg",
+    image: "/images/service-corporate.jpg?v=20260217r3",
     alt: "Corporate international transfer and commercial foreign exchange services",
     icon: Building2,
     animated: AnimatedCorporate,

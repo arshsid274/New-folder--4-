@@ -158,8 +158,8 @@ export default function GetQuotePage() {
             <article className="relative overflow-hidden rounded-3xl border border-slate-200 bg-white p-3 shadow-2xl sm:p-4">
               <div className="relative h-[240px] overflow-hidden rounded-2xl sm:h-[300px]">
                 <Image
-                  src="/images/hero-exchange.jpg"
-                  alt="Request transfer quote from Awail Al-Naqd"
+                  src="/images/support-desk.jpg?v=20260217r1"
+                  alt="Quote consultation with Awail Al-Naqd support advisor"
                   fill
                   priority
                   sizes="(max-width: 1023px) 100vw, 50vw"

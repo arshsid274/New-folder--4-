@@ -1,325 +1,401 @@
 [
   {
-    "file": "main-hero.jpg",
-    "query": "currency exchange office customer service desk",
-    "provider": "pexels",
-    "providerId": "12008048",
-    "relevanceScore": 0.6375,
-    "source": "https://www.pexels.com/photo/man-exchanging-money-12008048/",
-    "photographer": "Mathias Reding",
-    "photographerUrl": "https://www.pexels.com/@matreding",
-    "width": 6240,
-    "height": 4160,
+    "file": "about-office.jpg",
+    "query": "professional financial services office team meeting with clients",
+    "provider": "freepik",
+    "providerId": "394388875",
+    "relevanceScore": 0.5885,
+    "source": "https://www.freepik.com/premium-photo/business-people-meeting-documents-with-team-finance-company-revenue-profit-office-group-employees-financial-analysts-with-paperwork-discussion-corporate-budget-expenses_394388875.htm",
+    "selectedTitle": "Business people meeting and documents with team for finance company revenue or profit at office Group employees or financial analysts with paperwork for discussion on corporate budget or expenses",
+    "selectedDescription": "Business people meeting and documents with team for finance company revenue or profit at office Group employees or financial analysts with paperwork for discussion on corporate budget or expenses",
+    "photographer": "The Yuri Arcurs Collection",
+    "photographerUrl": "",
+    "width": 626,
+    "height": 417,
     "candidatePool": {
       "unsplash": 0,
-      "pexels": 8
+      "pexels": 20,
+      "freepik": 20,
+      "vecteezy": 20
     },
-    "downloadedAt": "2026-02-16T19:23:10.049Z"
+    "downloadedAt": "2026-02-17T06:28:48.635Z"
   },
   {
-    "file": "support-desk.jpg",
-    "query": "financial advisor discussing transfer documents office",
+    "file": "compliance-security.jpg",
+    "query": "financial compliance and cybersecurity risk review by analysts in office",
     "provider": "pexels",
-    "providerId": "8441820",
-    "relevanceScore": 0.7539,
-    "source": "https://www.pexels.com/photo/a-man-sitting-on-couch-holding-a-paper-beside-an-elderly-person-8441820/",
+    "providerId": "7567485",
+    "relevanceScore": 0.5033,
+    "source": "https://www.pexels.com/photo/man-in-black-suit-jacket-analyzing-data-reports-7567485/",
+    "selectedTitle": "",
+    "selectedDescription": "Focused businessman reviews financial reports at office desk with laptop.",
+    "photographer": "Tima Miroshnichenko",
+    "photographerUrl": "https://www.pexels.com/@tima-miroshnichenko",
+    "width": 6000,
+    "height": 4000,
+    "candidatePool": {
+      "unsplash": 0,
+      "pexels": 20,
+      "freepik": 20,
+      "vecteezy": 20
+    },
+    "downloadedAt": "2026-02-17T06:28:49.313Z"
+  },
+  {
+    "file": "contact-office.jpg",
+    "query": "customer service reception desk in financial office with staff support",
+    "provider": "pexels",
+    "providerId": "8204323",
+    "relevanceScore": 0.5936,
+    "source": "https://www.pexels.com/photo/woman-in-gray-sweater-working-on-a-desktop-computers-8204323/",
+    "selectedTitle": "",
+    "selectedDescription": "A young Asian woman wearing a headset working on customer support at a modern office desk.",
     "photographer": "Kampus Production",
     "photographerUrl": "https://www.pexels.com/@kampus",
     "width": 6016,
     "height": 4016,
     "candidatePool": {
-      "unsplash": 8,
-      "pexels": 8
+      "unsplash": 0,
+      "pexels": 20,
+      "freepik": 20,
+      "vecteezy": 20
     },
-    "downloadedAt": "2026-02-16T19:23:10.813Z"
+    "downloadedAt": "2026-02-17T06:28:48.941Z"
+  },
+  {
+    "file": "corporate-transfer.jpg",
+    "query": "corporate finance team reviewing supplier invoices on laptop in office meeting",
+    "provider": "pexels",
+    "providerId": "7698807",
+    "relevanceScore": 0.4537,
+    "source": "https://www.pexels.com/photo/employees-looking-at-the-graph-on-the-laptop-7698807/",
+    "selectedTitle": "",
+    "selectedDescription": "A diverse group of young professionals discussing finances using a laptop in an office setting.",
+    "photographer": "Yan Krukau",
+    "photographerUrl": "https://www.pexels.com/@yankrukov",
+    "width": 6000,
+    "height": 4000,
+    "candidatePool": {
+      "unsplash": 0,
+      "pexels": 20,
+      "freepik": 20,
+      "vecteezy": 20
+    },
+    "downloadedAt": "2026-02-17T06:28:43.198Z"
   },
   {
     "file": "hero-exchange.jpg",
-    "query": "currency exchange financial consultation office modern",
+    "query": "money transfer consultation at financial services office desk with advisor and client",
     "provider": "pexels",
-    "providerId": "12008048",
-    "relevanceScore": 0.6375,
-    "source": "https://www.pexels.com/photo/man-exchanging-money-12008048/",
-    "photographer": "Mathias Reding",
-    "photographerUrl": "https://www.pexels.com/@matreding",
-    "width": 6240,
-    "height": 4160,
+    "providerId": "7841456",
+    "relevanceScore": 0.4631,
+    "source": "https://www.pexels.com/photo/a-group-people-having-a-meeting-inside-the-office-7841456/",
+    "selectedTitle": "",
+    "selectedDescription": "A professional lawyer meeting with clients in his office at a legal consultation.",
+    "photographer": "RDNE Stock project",
+    "photographerUrl": "https://www.pexels.com/@rdne",
+    "width": 6568,
+    "height": 4379,
     "candidatePool": {
-      "unsplash": 8,
-      "pexels": 8
+      "unsplash": 0,
+      "pexels": 20,
+      "freepik": 20,
+      "vecteezy": 20
     },
-    "downloadedAt": "2026-02-16T19:23:11.644Z"
+    "downloadedAt": "2026-02-17T06:28:38.498Z"
   },
   {
-    "file": "service-banner.jpg",
-    "query": "international remittance and currency exchange concept",
-    "provider": "pexels",
-    "providerId": "29916107",
-    "relevanceScore": 0.7075,
-    "source": "https://www.pexels.com/photo/us-dollars-and-japanese-yen-currency-exchange-29916107/",
-    "photographer": "Q L",
-    "photographerUrl": "https://www.pexels.com/@luoqing",
-    "width": 8256,
-    "height": 5504,
+    "file": "international-money.jpg",
+    "query": "international wire transfer banking service with advisor and customer at desk",
+    "provider": "freepik",
+    "providerId": "379446540",
+    "relevanceScore": 0.349,
+    "source": "https://www.freepik.com/premium-photo/office-man-woman-laptop-with-credit-card-budget-planning-ecommerce-research-banking-fintech-business-people-desk-with-funding-proposal-account-management-online-payment_379446540.htm",
+    "selectedTitle": "Office man and woman at laptop with credit card budget planning and ecommerce research Banking fintech and business people at desk with funding proposal account management and online payment",
+    "selectedDescription": "Office man and woman at laptop with credit card budget planning and ecommerce research Banking fintech and business people at desk with funding proposal account management and online payment",
+    "photographer": "The Yuri Arcurs Collection",
+    "photographerUrl": "",
+    "width": 626,
+    "height": 319,
     "candidatePool": {
-      "unsplash": 8,
-      "pexels": 8
+      "unsplash": 0,
+      "pexels": 20,
+      "freepik": 20,
+      "vecteezy": 20
     },
-    "downloadedAt": "2026-02-16T19:23:14.243Z"
+    "downloadedAt": "2026-02-17T06:28:40.146Z"
   },
   {
     "file": "localcurrencyExchange.jpg",
-    "query": "foreign currency cash exchange counter",
+    "query": "local currency exchange transaction at counter with teller and customer",
     "provider": "pexels",
     "providerId": "12008066",
-    "relevanceScore": 0.7047,
+    "relevanceScore": 0.5552,
     "source": "https://www.pexels.com/photo/a-man-in-black-suit-standing-near-the-glass-window-counter-12008066/",
+    "selectedTitle": "",
+    "selectedDescription": "A businessman changes money at a currency exchange counter indoors.",
     "photographer": "Mathias Reding",
     "photographerUrl": "https://www.pexels.com/@matreding",
     "width": 6137,
     "height": 4154,
     "candidatePool": {
       "unsplash": 8,
-      "pexels": 8
+      "pexels": 20,
+      "freepik": 20,
+      "vecteezy": 20
     },
-    "downloadedAt": "2026-02-16T19:23:15.284Z"
+    "downloadedAt": "2026-02-17T06:28:39.319Z"
   },
   {
-    "file": "international-money.jpg",
-    "query": "international wire transfer online banking concept",
-    "provider": "pexels",
-    "providerId": "6289170",
-    "relevanceScore": 0.5111,
-    "source": "https://www.pexels.com/photo/creative-illustration-of-online-transaction-via-smartphones-6289170/",
-    "photographer": "Monstera Production",
-    "photographerUrl": "https://www.pexels.com/@gabby-k",
-    "width": 8000,
-    "height": 4500,
+    "file": "main-hero.jpg",
+    "query": "licensed currency exchange teller helping customer at counter with cash",
+    "provider": "freepik",
+    "providerId": "52417225",
+    "relevanceScore": 0.5514,
+    "source": "https://www.freepik.com/premium-photo/people-withdrawal-saving-finance-concept-clerk-with-cash-money-customer-bank-office-currency-exchanger_52417225.htm",
+    "selectedTitle": "people, withdrawal, saving and finance concept - clerk with cash money and customer at bank office or currency exchanger",
+    "selectedDescription": "people, withdrawal, saving and finance concept - clerk with cash money and customer at bank office or currency exchanger",
+    "photographer": "syda_productions",
+    "photographerUrl": "",
+    "width": 626,
+    "height": 417,
     "candidatePool": {
-      "unsplash": 8,
-      "pexels": 8
+      "unsplash": 20,
+      "pexels": 20,
+      "freepik": 20,
+      "vecteezy": 20
     },
-    "downloadedAt": "2026-02-16T19:23:16.327Z"
+    "downloadedAt": "2026-02-17T06:28:37.695Z"
   },
   {
     "file": "medical-transfer.jpg",
-    "query": "hospital payment desk medical billing consultation",
-    "provider": "pexels",
-    "providerId": "5207113",
-    "relevanceScore": 0.5208,
-    "source": "https://www.pexels.com/photo/woman-wearing-eyeglasses-while-using-her-laptop-5207113/",
-    "photographer": "www.kaboompics.com",
-    "photographerUrl": "https://www.pexels.com/@karola-g",
-    "width": 6720,
-    "height": 4480,
+    "query": "medical transfer payment support at hospital billing office",
+    "provider": "freepik",
+    "providerId": "32571245",
+    "relevanceScore": 0.4889,
+    "source": "https://www.freepik.com/premium-photo/senior-man-paying-with-credit-card-hospital-reception-desk-making-electronic-payment-transaction-medical-checkup-appointment-treatment-receptionist-helping-man-pay_32571245.htm",
+    "selectedTitle": "Senior man paying with credit card at hospital reception desk, making electronic payment transaction for medical checkup appointment and treatment. Receptionist helping man to pay.",
+    "selectedDescription": "Senior man paying with credit card at hospital reception desk, making electronic payment transaction for medical checkup appointment and treatment. Receptionist helping man to pay.",
+    "photographer": "DC Studio",
+    "photographerUrl": "",
+    "width": 626,
+    "height": 352,
     "candidatePool": {
       "unsplash": 0,
-      "pexels": 8
+      "pexels": 20,
+      "freepik": 20,
+      "vecteezy": 20
     },
-    "downloadedAt": "2026-02-16T19:23:17.762Z"
+    "downloadedAt": "2026-02-17T06:28:40.441Z"
   },
   {
-    "file": "study-abroad.jpg",
-    "query": "student tuition payment university administration office",
-    "provider": "pexels",
-    "providerId": "8296953",
-    "relevanceScore": 0.5208,
-    "source": "https://www.pexels.com/photo/office-tools-and-equipment-on-a-desk-8296953/",
-    "photographer": "Mikhail Nilov",
-    "photographerUrl": "https://www.pexels.com/@mikhail-nilov",
-    "width": 6000,
-    "height": 4000,
-    "candidatePool": {
-      "unsplash": 0,
-      "pexels": 8
-    },
-    "downloadedAt": "2026-02-16T19:23:18.608Z"
-  },
-  {
-    "file": "tourism-transfer.jpg",
-    "query": "travel money exchange passport and trip planning",
-    "provider": "unsplash",
-    "providerId": "JzoQctzaPTA",
-    "relevanceScore": 0.5208,
-    "source": "https://unsplash.com/photos/calendar-JzoQctzaPTA",
-    "photographer": "Frugal Flyer",
-    "photographerUrl": "https://unsplash.com/@frugalflyer",
-    "width": 6000,
-    "height": 4000,
-    "candidatePool": {
-      "unsplash": 8,
-      "pexels": 8
-    },
-    "downloadedAt": "2026-02-16T19:23:19.832Z"
-  },
-  {
-    "file": "corporate-transfer.jpg",
-    "query": "corporate finance team international business payments",
-    "provider": "pexels",
-    "providerId": "7821519",
-    "relevanceScore": 0.4042,
-    "source": "https://www.pexels.com/photo/a-man-in-a-suit-holding-credit-cards-7821519/",
-    "photographer": "RDNE Stock project",
-    "photographerUrl": "https://www.pexels.com/@rdne",
-    "width": 6416,
-    "height": 4277,
-    "candidatePool": {
-      "unsplash": 5,
-      "pexels": 8
-    },
-    "downloadedAt": "2026-02-16T19:23:21.779Z"
-  },
-  {
-    "file": "service-local.jpg",
-    "query": "currency exchange service desk close up",
+    "file": "service-banner.jpg",
+    "query": "global remittance and foreign exchange operations in financial office",
     "provider": "pexels",
     "providerId": "12008048",
-    "relevanceScore": 0.5675,
+    "relevanceScore": 0.4383,
     "source": "https://www.pexels.com/photo/man-exchanging-money-12008048/",
+    "selectedTitle": "",
+    "selectedDescription": "Man at a currency exchange office window, showing currency rates inside a bustling city.",
     "photographer": "Mathias Reding",
     "photographerUrl": "https://www.pexels.com/@matreding",
     "width": 6240,
     "height": 4160,
     "candidatePool": {
-      "unsplash": 8,
-      "pexels": 8
-    },
-    "downloadedAt": "2026-02-16T19:23:22.512Z"
-  },
-  {
-    "file": "service-international.jpg",
-    "query": "cross border payment and global transfer business",
-    "provider": "pexels",
-    "providerId": "7621144",
-    "relevanceScore": 0.4042,
-    "source": "https://www.pexels.com/photo/a-person-paying-cashless-7621144/",
-    "photographer": "Ivan S",
-    "photographerUrl": "https://www.pexels.com/@ivan-s",
-    "width": 6107,
-    "height": 4070,
-    "candidatePool": {
       "unsplash": 0,
-      "pexels": 8
+      "pexels": 20,
+      "freepik": 20,
+      "vecteezy": 20
     },
-    "downloadedAt": "2026-02-16T19:23:23.354Z"
-  },
-  {
-    "file": "service-medical.jpg",
-    "query": "medical expense payment hospital finance support",
-    "provider": "pexels",
-    "providerId": "4021809",
-    "relevanceScore": 0.5208,
-    "source": "https://www.pexels.com/photo/faceless-doctor-with-chocolate-coins-in-hands-4021809/",
-    "photographer": "www.kaboompics.com",
-    "photographerUrl": "https://www.pexels.com/@karola-g",
-    "width": 6720,
-    "height": 4480,
-    "candidatePool": {
-      "unsplash": 8,
-      "pexels": 8
-    },
-    "downloadedAt": "2026-02-16T19:23:24.409Z"
-  },
-  {
-    "file": "service-study.jpg",
-    "query": "college tuition payment and student financial services",
-    "provider": "pexels",
-    "providerId": "6818151",
-    "relevanceScore": 0.4042,
-    "source": "https://www.pexels.com/photo/a-person-holding-money-6818151/",
-    "photographer": "Yan Krukau",
-    "photographerUrl": "https://www.pexels.com/@yankrukov",
-    "width": 6000,
-    "height": 4000,
-    "candidatePool": {
-      "unsplash": 8,
-      "pexels": 8
-    },
-    "downloadedAt": "2026-02-16T19:23:26.521Z"
-  },
-  {
-    "file": "service-tourism.jpg",
-    "query": "travel remittance and foreign exchange for tourists",
-    "provider": "unsplash",
-    "providerId": "JzoQctzaPTA",
-    "relevanceScore": 0.4275,
-    "source": "https://unsplash.com/photos/calendar-JzoQctzaPTA",
-    "photographer": "Frugal Flyer",
-    "photographerUrl": "https://unsplash.com/@frugalflyer",
-    "width": 6000,
-    "height": 4000,
-    "candidatePool": {
-      "unsplash": 8,
-      "pexels": 8
-    },
-    "downloadedAt": "2026-02-16T19:23:27.490Z"
+    "downloadedAt": "2026-02-17T06:28:39.004Z"
   },
   {
     "file": "service-corporate.jpg",
-    "query": "enterprise treasury and international supplier payments",
+    "query": "corporate finance team reviewing supplier invoices and payment reports in meeting room",
+    "provider": "freepik",
+    "providerId": "422242298",
+    "relevanceScore": 0.2659,
+    "source": "https://www.freepik.com/premium-photo/businesswomen-team-working-office-table-discussing-documents-business-meeting_422242298.htm",
+    "selectedTitle": "Businesswomen team working at office table discussing documents during business meeting",
+    "selectedDescription": "Businesswomen team working at office table discussing documents during business meeting",
+    "photographer": "undrey",
+    "photographerUrl": "",
+    "width": 3307,
+    "height": 4960,
+    "candidatePool": {
+      "unsplash": 3,
+      "pexels": 20,
+      "freepik": 15,
+      "vecteezy": 0
+    },
+    "downloadedAt": "2026-02-17T07:06:03.291Z"
+  },
+  {
+    "file": "service-international.jpg",
+    "query": "bank advisor reviewing international transfer form with client at office desk",
     "provider": "pexels",
-    "providerId": "3943719",
-    "relevanceScore": 0.4275,
-    "source": "https://www.pexels.com/photo/gold-and-silver-round-coins-3943719/",
+    "providerId": "7875935",
+    "relevanceScore": 0.5019,
+    "source": "https://www.pexels.com/photo/a-man-in-blue-suit-sitting-beside-the-white-desk-7875935/",
+    "selectedTitle": "",
+    "selectedDescription": "Man in suit consulting with client in elegant office, discussing documents on desk.",
+    "photographer": "www.kaboompics.com",
+    "photographerUrl": "https://www.pexels.com/@karola-g",
+    "width": 4480,
+    "height": 6720,
+    "candidatePool": {
+      "unsplash": 14,
+      "pexels": 20,
+      "freepik": 14,
+      "vecteezy": 0
+    },
+    "downloadedAt": "2026-02-17T07:05:57.779Z"
+  },
+  {
+    "file": "service-local.jpg",
+    "query": "currency exchange teller counting cash for customer at indoor service counter",
+    "provider": "pexels",
+    "providerId": "5920594",
+    "relevanceScore": 0.5502,
+    "source": "https://www.pexels.com/photo/gambler-in-black-framed-eyeglasses-5920594/",
+    "selectedTitle": "",
+    "selectedDescription": "Bearded man in suit using a cash counting machine indoors, reaching for currency.",
     "photographer": "cottonbro studio",
     "photographerUrl": "https://www.pexels.com/@cottonbro",
+    "width": 5194,
+    "height": 6493,
+    "candidatePool": {
+      "unsplash": 0,
+      "pexels": 20,
+      "freepik": 11,
+      "vecteezy": 0
+    },
+    "downloadedAt": "2026-02-17T07:05:56.074Z"
+  },
+  {
+    "file": "service-medical.jpg",
+    "query": "hospital billing staff explaining medical payment documents to patient family",
+    "provider": "pexels",
+    "providerId": "6303648",
+    "relevanceScore": 0.5019,
+    "source": "https://www.pexels.com/photo/doctor-standing-near-pensive-black-woman-in-hallway-of-hospital-6303648/",
+    "selectedTitle": "",
+    "selectedDescription": "Crop unrecognizable nurse in medical uniform standing with clipboard with diagnosis near thoughtful African American patient in hallway of hospital in daytime",
+    "photographer": "Klaus Nielsen",
+    "photographerUrl": "https://www.pexels.com/@klaus-nielsen",
+    "width": 4000,
+    "height": 6000,
+    "candidatePool": {
+      "unsplash": 20,
+      "pexels": 20,
+      "freepik": 13,
+      "vecteezy": 0
+    },
+    "downloadedAt": "2026-02-17T07:05:59.578Z"
+  },
+  {
+    "file": "service-study.jpg",
+    "query": "student and parent reviewing tuition payment paperwork with advisor in office",
+    "provider": "pexels",
+    "providerId": "7821911",
+    "relevanceScore": 0.4586,
+    "source": "https://www.pexels.com/photo/man-and-woman-sitting-on-chair-in-front-of-laptop-computer-7821911/",
+    "selectedTitle": "",
+    "selectedDescription": "A professional financial advisor discusses options with a couple in a modern office setting.",
+    "photographer": "RDNE Stock project",
+    "photographerUrl": "https://www.pexels.com/@rdne",
+    "width": 4213,
+    "height": 6319,
+    "candidatePool": {
+      "unsplash": 9,
+      "pexels": 20,
+      "freepik": 18,
+      "vecteezy": 0
+    },
+    "downloadedAt": "2026-02-17T07:06:00.562Z"
+  },
+  {
+    "file": "service-tourism.jpg",
+    "query": "traveler exchanging currency at service desk with passport and cash",
+    "provider": "unsplash",
+    "providerId": "pGMjjYvE7Yg",
+    "relevanceScore": 0.5981,
+    "source": "https://unsplash.com/photos/airport-signs-show-gates-currency-exchange-and-lounges-pGMjjYvE7Yg",
+    "selectedTitle": "",
+    "selectedDescription": "Sign for airport gates and services located in a modern terminal during the day - The sign directs travelers to gates E13 to E19 and points out facilities like currency exchange and business class lounges, showcasing a busy airport environment.",
+    "photographer": "Eric Prouzet",
+    "photographerUrl": "https://unsplash.com/@eprouzet",
+    "width": 3583,
+    "height": 5375,
+    "candidatePool": {
+      "unsplash": 3,
+      "pexels": 20,
+      "freepik": 8,
+      "vecteezy": 0
+    },
+    "downloadedAt": "2026-02-17T07:06:01.678Z"
+  },
+  {
+    "file": "study-abroad.jpg",
+    "query": "student tuition payment support at university admissions finance office",
+    "provider": "freepik",
+    "providerId": "420043108",
+    "relevanceScore": 0.4,
+    "source": "https://www.freepik.com/premium-photo/people-students-friends-with-help-college-study-group-tech-cafeteria-men-woman-talk-with-laptop-scholarship-assignment-research-university-project-online-learning_420043108.htm",
+    "selectedTitle": "People students and friends with help for college study group and tech in cafeteria Men woman and talk with laptop scholarship and assignment research for university project or online learning",
+    "selectedDescription": "People students and friends with help for college study group and tech in cafeteria Men woman and talk with laptop scholarship and assignment research for university project or online learning",
+    "photographer": "The Yuri Arcurs Collection",
+    "photographerUrl": "",
+    "width": 626,
+    "height": 330,
+    "candidatePool": {
+      "unsplash": 0,
+      "pexels": 20,
+      "freepik": 20,
+      "vecteezy": 20
+    },
+    "downloadedAt": "2026-02-17T06:28:41.142Z"
+  },
+  {
+    "file": "support-desk.jpg",
+    "query": "financial advisor helping client complete money transfer documents in office",
+    "provider": "pexels",
+    "providerId": "8441811",
+    "relevanceScore": 0.6692,
+    "source": "https://www.pexels.com/photo/an-agent-showing-documents-to-an-elderly-man-8441811/",
+    "selectedTitle": "",
+    "selectedDescription": "Financial advisor discussing documents with senior clients in an office setting, showcasing a collaborative consulting session.",
+    "photographer": "Kampus Production",
+    "photographerUrl": "https://www.pexels.com/@kampus",
+    "width": 6016,
+    "height": 4016,
+    "candidatePool": {
+      "unsplash": 20,
+      "pexels": 20,
+      "freepik": 20,
+      "vecteezy": 20
+    },
+    "downloadedAt": "2026-02-17T06:28:38.117Z"
+  },
+  {
+    "file": "tourism-transfer.jpg",
+    "query": "tourism foreign currency exchange with traveler passport and trip planning",
+    "provider": "pexels",
+    "providerId": "32269246",
+    "relevanceScore": 0.4637,
+    "source": "https://www.pexels.com/photo/travel-essentials-passport-currency-and-cards-32269246/",
+    "selectedTitle": "",
+    "selectedDescription": "A flat lay of travel essentials including a passport, US currency, and credit cards on a table.",
+    "photographer": "DΛVΞ GΛRCIΛ",
+    "photographerUrl": "https://www.pexels.com/@davegarcia",
     "width": 6000,
     "height": 4000,
     "candidatePool": {
       "unsplash": 0,
-      "pexels": 8
+      "pexels": 20,
+      "freepik": 19,
+      "vecteezy": 20
     },
-    "downloadedAt": "2026-02-16T19:23:28.072Z"
-  },
-  {
-    "file": "about-office.jpg",
-    "query": "professional finance office team meeting",
-    "provider": "pexels",
-    "providerId": "7698802",
-    "relevanceScore": 0.8475,
-    "source": "https://www.pexels.com/photo/coworkers-looking-at-a-laptop-in-a-meeting-7698802/",
-    "photographer": "Yan Krukau",
-    "photographerUrl": "https://www.pexels.com/@yankrukov",
-    "width": 6000,
-    "height": 4000,
-    "candidatePool": {
-      "unsplash": 8,
-      "pexels": 8
-    },
-    "downloadedAt": "2026-02-16T19:23:29.961Z"
-  },
-  {
-    "file": "contact-office.jpg",
-    "query": "customer support office front desk business",
-    "provider": "pexels",
-    "providerId": "8867434",
-    "relevanceScore": 0.6375,
-    "source": "https://www.pexels.com/photo/a-smiling-woman-working-in-a-call-center-while-looking-at-camera-8867434/",
-    "photographer": "Yan Krukau",
-    "photographerUrl": "https://www.pexels.com/@yankrukov",
-    "width": 6000,
-    "height": 4000,
-    "candidatePool": {
-      "unsplash": 1,
-      "pexels": 8
-    },
-    "downloadedAt": "2026-02-16T19:23:30.694Z"
-  },
-  {
-    "file": "compliance-security.jpg",
-    "query": "financial compliance cyber security and data protection",
-    "provider": "unsplash",
-    "providerId": "KdCJ1nIkgOU",
-    "relevanceScore": 0.7542,
-    "source": "https://unsplash.com/photos/an-unlocked-padlock-rests-on-a-computer-keyboard-KdCJ1nIkgOU",
-    "photographer": "Sasun Bughdaryan",
-    "photographerUrl": "https://unsplash.com/@sasun1990",
-    "width": 5496,
-    "height": 3664,
-    "candidatePool": {
-      "unsplash": 8,
-      "pexels": 8
-    },
-    "downloadedAt": "2026-02-16T19:23:31.747Z"
+    "downloadedAt": "2026-02-17T06:28:41.492Z"
   }
 ]

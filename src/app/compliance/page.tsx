@@ -327,7 +327,7 @@ export default function CompliancePage() {
             <article className="relative overflow-hidden rounded-3xl border border-slate-200 bg-white p-3 shadow-2xl sm:p-4">
               <div className="relative h-[250px] overflow-hidden rounded-2xl sm:h-[310px]">
                 <Image
-                  src="/images/compliance-security.jpg"
+                  src="/images/compliance-security.jpg?v=20260217r1"
                   alt="Compliance security controls at Awail Al-Naqd"
                   fill
                   priority

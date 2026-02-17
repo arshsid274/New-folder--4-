@@ -8,6 +8,27 @@ const normalizedBasePath =
 
 const nextConfig: NextConfig = {
   trailingSlash: true,
+  images: {
+    minimumCacheTTL: 0,
+    localPatterns: [
+      {
+        pathname: "/images/**",
+      },
+    ],
+  },
+  async headers() {
+    return [
+      {
+        source: "/images/:path*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "no-store, max-age=0, must-revalidate",
+          },
+        ],
+      },
+    ];
+  },
   ...(normalizedBasePath
     ? {
         basePath: normalizedBasePath,

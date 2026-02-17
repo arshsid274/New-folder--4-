@@ -233,7 +233,7 @@ export default function AboutPage() {
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-cyan-500 to-blue-600 opacity-10 blur-3xl" />
               <div className="relative overflow-hidden rounded-2xl border border-slate-200 bg-white p-4 shadow-2xl">
                 <Image
-                  src="/images/about.png"
+                  src="/images/about-office.jpg?v=20260217r1"
                   alt="Awail Al-Naqd office in Benghazi"
                   width={1000}
                   height={750}

@@ -51,7 +51,7 @@ const services: ServiceCard[] = [
     title: "Local Currency Exchange",
     description:
       "Competitive rates for buying and selling international currencies with transparent pricing.",
-    image: "/images/localcurrencyExchange.jpg",
+    image: "/images/localcurrencyExchange.jpg?v=20260217r1",
     alt: "Local currency exchange desk at Awail Al-Naqd",
     icon: Banknote,
     gradient: "from-blue-600/80 via-cyan-500/50 to-transparent",
@@ -62,7 +62,7 @@ const services: ServiceCard[] = [
     title: "International Money Transfers",
     description:
       "Secure worldwide bank-to-bank transfers through recognized channels with full clarity.",
-    image: "/images/international-money.jpg",
+    image: "/images/international-money.jpg?v=20260217r1",
     alt: "International money transfer services",
     icon: Send,
     gradient: "from-cyan-600/80 via-blue-500/50 to-transparent",
@@ -72,7 +72,7 @@ const services: ServiceCard[] = [
   {
     title: "Medical Transfers",
     description: "Fast and reliable transfers to hospitals and medical institutions abroad.",
-    image: "/images/medical-transfer.jpg",
+    image: "/images/medical-transfer.jpg?v=20260217r1",
     alt: "Medical transfer support for hospitals abroad",
     icon: Heart,
     gradient: "from-emerald-700/75 via-teal-500/45 to-transparent",
@@ -82,7 +82,7 @@ const services: ServiceCard[] = [
   {
     title: "Study Abroad Transfers",
     description: "Tuition and student expense transfers to universities worldwide.",
-    image: "/images/study-abroad.jpg",
+    image: "/images/study-abroad.jpg?v=20260217r1",
     alt: "Study abroad tuition transfer support",
     icon: GraduationCap,
     gradient: "from-indigo-700/75 via-blue-500/45 to-transparent",
@@ -92,7 +92,7 @@ const services: ServiceCard[] = [
   {
     title: "Tourism Transfers",
     description: "Foreign currency exchange and travel remittances for international trips.",
-    image: "/images/tourism-transfer.jpg",
+    image: "/images/tourism-transfer.jpg?v=20260217r1",
     alt: "Tourism remittance and foreign exchange",
     icon: Plane,
     gradient: "from-teal-700/75 via-emerald-500/45 to-transparent",
@@ -102,7 +102,7 @@ const services: ServiceCard[] = [
   {
     title: "Corporate Transfers",
     description: "Business payments and commercial FX solutions for growing companies.",
-    image: "/images/corporate-transfer.jpg",
+    image: "/images/corporate-transfer.jpg?v=20260217r1",
     alt: "Corporate transfer and FX services",
     icon: Building2,
     gradient: "from-slate-700/80 via-blue-600/45 to-transparent",
@@ -318,7 +318,7 @@ export default function HomePage() {
               <article className="relative overflow-hidden rounded-3xl border border-slate-200 bg-white/95 p-3 shadow-2xl sm:p-4">
                 <div className="relative h-[280px] w-full overflow-hidden rounded-2xl sm:h-[360px]">
                   <Image
-                    src="/images/main-hero.jpg"
+                    src="/images/main-hero.jpg?v=20260217r1"
                     alt="Currency exchange services"
                     fill
                     priority
@@ -404,7 +404,7 @@ export default function HomePage() {
             <article className="relative order-2 overflow-hidden rounded-3xl border border-slate-200 bg-white p-3 shadow-2xl lg:order-1 sm:p-4">
               <div className="relative h-[280px] w-full overflow-hidden rounded-2xl sm:h-[360px]">
                 <Image
-                  src="/images/support-desk.jpg"
+                  src="/images/support-desk.jpg?v=20260217r1"
                   alt="Professional financial service support"
                   fill
                   sizes="(max-width: 1023px) 100vw, 50vw"

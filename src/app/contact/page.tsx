@@ -202,7 +202,7 @@ export default function ContactPage() {
             <article className="relative overflow-hidden rounded-3xl border border-slate-200 bg-white p-3 shadow-2xl sm:p-4">
               <div className="relative h-[220px] overflow-hidden rounded-2xl sm:h-[280px]">
                 <Image
-                  src="/images/contact-office.jpg"
+                  src="/images/contact-office.jpg?v=20260217r1"
                   alt="Awail Al-Naqd customer service office"
                   fill
                   priority
